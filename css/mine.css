@@ -114,9 +114,30 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.slider__item {
-    background-color: red;
+.slider__pages {
     height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider__pages--first {
+    background-image: url(../img/food.jpg);
+}
+
+.slider__pages--second {
+    background-image: url(../img/animals.jpeg);
+}
+
+.slider__pages--third {
+    background-image: url(../img/craft.jpeg);
+}
+
+.slider__pages--fourth {
+    background-image: url(../img/house.webp);
+}
+
+.slider__pages--fifth {
+    background-image: url(../img/travels.png);
 }
 .slick-list {
     overflow: hidden;
@@ -144,6 +165,31 @@ body {
     right: -50px;
 }
 
+.slick-dots button {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    font-size: 0;
+    border-radius: 50%;
+}
+
+.slick-dots button:hover {
+    background-color: rgb(35, 110, 35);
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    column-gap: 7px;
+    
+}
+
+.slick-active button {
+    background-color: rgb(35, 110, 35);
+}
 
 
 
