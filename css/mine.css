@@ -115,10 +115,11 @@ body {
     position: relative;
 }
 .slider__pages {
-    height: 200px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 .slider__pages--first {
     background-image: url(../img/food.jpg);
@@ -189,6 +190,22 @@ body {
 
 .slick-active button {
     background-color: rgb(35, 110, 35);
+}
+
+.slider__description {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    text-shadow: 5px 2px 7px black;
+    font-size: 25px;
+    background-color: rgba(0, 128, 0, 0.3);
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 
