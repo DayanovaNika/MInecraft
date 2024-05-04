@@ -278,6 +278,15 @@ body {
     .main-info__text {
         width: 90%;
     }
+    .slider__description {
+        width: 90%;
+    }
+    .slick-arrow {
+        display: none !important;
+    }
+    .slider {
+        width: 100%;
+    }
 }
 
 @media (max-width: 460px) {
@@ -296,7 +305,9 @@ body {
         align-items: center;
         row-gap: 15px;
     }
-    
+    .slider__description {
+        font-size: 18px;
+    }
 }
 
 

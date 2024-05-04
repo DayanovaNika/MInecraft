@@ -3,6 +3,7 @@ $('.slider').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    autoplay: true,
     prevArrow: `
     <button class="slick-arrow slick-prev">
     <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
