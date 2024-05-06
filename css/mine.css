@@ -208,6 +208,31 @@ body {
     font-weight: 600;
 }
 
+/* =======game-resources======= */
+
+.mods {
+}
+.mods__content {
+}
+.mods__list-cards {
+}
+.mods__item {
+}
+.card-mode {
+}
+.card-mode__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-mode__image--doppelganger {
+    background-image: url(../img/The-Doppelganger.png);
+}
+.card-mode__text {
+}
+.card-mode__link {
+}
+
 
 
 
