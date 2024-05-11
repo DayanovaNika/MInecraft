@@ -225,7 +225,7 @@ body {
     margin: 0 auto;
 }
 .card-mode__image {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 90%;
@@ -349,6 +349,9 @@ body {
     .slider {
         width: 100%;
     }
+    .card-mode {
+        width: 100%;
+    }
 }
 
 @media (max-width: 460px) {
@@ -369,6 +372,9 @@ body {
     }
     .slider__description {
         font-size: 18px;
+    }
+    .card-mode__image {
+        height: 300px;
     }
 }
 
