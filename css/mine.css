@@ -352,6 +352,15 @@ body {
     .card-mode {
         width: 100%;
     }
+    .card-mode__link {
+        justify-content: center;
+    }
+    .card-mode {
+        text-align: center;
+    }
+    .card-mode__text {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -376,6 +385,16 @@ body {
     .card-mode__image {
         height: 300px;
     }
+    .card-mode__link {
+        justify-content: center;
+    }
+    .card-mode {
+        text-align: center;
+    }
+    .card-mode__text {
+        font-size: 15px;
+    }
+    
 }
 
 
